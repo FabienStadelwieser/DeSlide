@@ -8,9 +8,12 @@ import BattleRythme from './components/battle_rythme.vue'
 import Editor from './components/editor.vue'
 import FinalView from './components/final_view.vue'
 
-Vue.use(VueRouter)
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-Vue.config.productionTip = false
+Vue.use(VueRouter);
+
+Vue.config.productionTip = false;
 
 const router = new VueRouter({
 	routes: [
