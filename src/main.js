@@ -3,10 +3,10 @@ import VueRouter from 'vue-router'
 
 import App from './App.vue'
 
-import Login from './components/login.vue'
-import BattleRythme from './components/battle_rythme.vue'
-import Editor from './components/editor.vue'
-import FinalView from './components/final_view.vue'
+import Login from './components/Login.vue'
+import BattleRythme from './components/BattleRythme.vue'
+import Editor from './components/Editor.vue'
+import FinalView from './components/FinalView.vue'
 
 Vue.use(VueRouter)
 

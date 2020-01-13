@@ -1,11 +1,10 @@
 <template lang="html">
-	<h1>Editor : {{ $route.params.slide }}</h1>
+	<div>
+	</div>
 </template>
 
 <script>
 export default {
-	name: 'Editor',
-	
 }
 </script>
 
