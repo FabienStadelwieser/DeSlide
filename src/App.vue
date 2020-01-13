@@ -1,16 +1,14 @@
 <template>
 	<div id="app">
-		<Exemple msg="Welcome to Your Vue.js App"/>
+		<router-view></router-view>
 	</div>
 </template>
 
 <script>
-import Exemple from './components/exemple.vue'
 
 export default {
 	name: 'app',
 	components: {
-		Exemple
 	}
 }
 </script>
