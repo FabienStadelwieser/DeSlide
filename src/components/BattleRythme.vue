@@ -63,6 +63,26 @@
 							<button v-else class="btn btn-success ml-2">On Going</button>
 						</a>
 					</li>
+					<li>
+						<a href="#">
+							<img src="@/assets/project.svg"/>
+							<span class="text-dark">
+								<b class="text-danger">12:30 am</b> Log Coord WG
+							</span>
+							<button v-if="new Date(this.current_date) <= (new Date()).setDate((new Date()).getDate() - 1)" class="btn btn-danger ml-2">Closed</button>
+							<button v-else class="btn btn-success ml-2">On Going</button>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="@/assets/project.svg"/>
+							<span class="text-dark">
+								<b class="text-danger">12:30 am</b> Log Coord WG
+							</span>
+							<button v-if="new Date(this.current_date) <= (new Date()).setDate((new Date()).getDate() - 1)" class="btn btn-danger ml-2">Closed</button>
+							<button v-else class="btn btn-success ml-2">On Going</button>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -126,9 +146,6 @@ function getDate () {
 	#dock-container li img {
 		width: 48px;
 		height: 48px;
-		-webkit-box-reflect: below 2px
-		-webkit-gradient(linear, left top, left bottom, from(transparent),
-				color-stop(0.7, transparent), to(rgba(255,255,255,.5)));
 		-webkit-transition: all 0.3s;
 		-webkit-transform-origin: 50% 100%;
 	}
@@ -138,6 +155,10 @@ function getDate () {
 		-webkit-transition: all 0.3s;
 		-webkit-transform-origin: 50% 100%;
 		margin-left: 16px;
+	}
+
+	#dock-container li button {
+		border-radius: 20px;
 	}
 
 	#dock-container li:hover img {
