@@ -86,7 +86,7 @@
                 },
                 messages: [
                 ],
-                chatTitle: 'DeSlide',
+                chatTitle: 'Participants',
                 placeholder: 'Message',
                 colors: {
                     header: {
@@ -116,7 +116,7 @@
                 },
                 hideCloseButton: false,
                 submitIconSize: "30px",
-                closeButtonIconSize: "20px",
+                closeButtonIconSize: "0px",
                 asyncMode: false,
                 toLoad: [
                 ],
