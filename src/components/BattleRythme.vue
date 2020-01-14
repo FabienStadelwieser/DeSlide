@@ -9,7 +9,7 @@
 
 <script>
 
-	import Chat from './chat.vue'
+	import Chat from './Chat.vue'
 
 
 
