@@ -32,7 +32,7 @@ export default {
 #grid {
 	display: grid;
 	grid-template-columns: 1fr 4fr 1.3fr;
-	grid-template-rows: 4.8em 1fr 7em;
+	grid-template-rows: 4.8em 1fr 12.5em;
 	grid-template-areas:
 		"selector toolbar chat"
 		"selector preview chat"
