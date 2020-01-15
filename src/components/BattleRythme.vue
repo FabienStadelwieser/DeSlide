@@ -1,5 +1,6 @@
 <template lang="html">
     <div class="container">
+        <Toolbar/>
         <div class="row">
             <h1 class="text-left align-content-end">Battle Rythm</h1>
             <button @click="prev_date" class="btn btn-link"><img class="ml-5" src="@/assets/left_arrow.svg"></button>
@@ -104,7 +105,7 @@
                                 <a href="#">
                                     <img src="@/assets/project.svg"/>
                                     <span class="text-dark">
-								<b class="text-danger">1300</b> Other WG (On Call)
+								<b class="text-danger">1300</b> Other WG <i>(On Call)</i>
 							</span>
                                     <button v-if="new Date(this.current_date) <= (new Date()).setDate((new Date()).getDate() - 1)"
                                             class="btn btn-danger ml-2">Closed
@@ -116,7 +117,7 @@
                                 <a href="#">
                                     <img src="@/assets/target.svg"/>
                                     <span class="text-dark">
-								<b class="text-danger">1400</b> JTIOWG/CB (On Call)
+								<b class="text-danger">1400</b> JTIOWG/CB <i>(On Call)</i>
 							</span>
                                     <button v-if="new Date(this.current_date) <= (new Date()).setDate((new Date()).getDate() - 1)"
                                             class="btn btn-danger ml-2">Closed
@@ -154,8 +155,11 @@
 
 <script>
 
+    import Toolbar from "./Toolbar.vue";
+
     export default {
         name: 'BattleRythme',
+        components: {Toolbar},
         data: function () {
             return {
                 current_date: getDate()
@@ -165,17 +169,19 @@
             next_date() {
                 const toTwoDigits = num => num < 10 ? '0' + num : num;
                 let date = new Date(this.$refs.date.value);
+                date.setDate(date.getDate() + 1);
                 let year = date.getFullYear();
                 let month = toTwoDigits(date.getMonth() + 1);
-                let day = toTwoDigits(date.getDate() + 1);
+                let day = toTwoDigits(date.getDate());
                 this.current_date = `${year}-${month}-${day}`;
             },
             prev_date() {
                 const toTwoDigits = num => num < 10 ? '0' + num : num;
                 let date = new Date(this.$refs.date.value);
+                date.setDate(date.getDate() - 1);
                 let year = date.getFullYear();
                 let month = toTwoDigits(date.getMonth() + 1);
-                let day = toTwoDigits(date.getDate() - 1);
+                let day = toTwoDigits(date.getDate());
                 this.current_date = `${year}-${month}-${day}`;
             }
         }
