@@ -90,29 +90,25 @@
                 placeholder: 'Message',
                 colors: {
                     header: {
-                        bg: '#d30303',
+                        bg: '#232348',
                         text: '#fff'
                     },
                     message: {
                         myself: {
-                            bg: '#fff',
-                            text: '#bdb8b8'
+                            bg: '#232348',
+                            text: '#f7f3f3'
                         },
                         others: {
-                            bg: '#fb4141',
-                            text: '#fff'
+                            bg: '#fff',
+                            text: '#232348'
                         },
                         messagesDisplay: {
                             bg: '#f7f3f3'
                         }
                     },
-                    submitIcon: '#b91010'
+                    submitIcon: '#232348'
                 },
                 borderStyle: {
-                    topLeft: "10px",
-                    topRight: "10px",
-                    bottomLeft: "10px",
-                    bottomRight: "10px",
                 },
                 hideCloseButton: false,
                 submitIconSize: "30px",
@@ -206,7 +202,4 @@
 </script>
 
 <style scoped>
-    .chat-panel {
-        height: 80vh;
-    }
 </style>

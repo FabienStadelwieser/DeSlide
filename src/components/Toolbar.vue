@@ -55,13 +55,17 @@ export default {
 
 <style lang="css" scoped>
 	#toolbar {
-		width: fit-content;
-		background-color: #232348
+		width: auto;
+		display: flex;
+		justify-content: flex-end;
+		background-color: #232348;
+		padding: 0;
+		height: 70px;
 	}
 
 	.toolbar-icon {
 		width: 30px;
 		height: 30px;
-		margin:0 15px;
+		margin:0 5px;
 	}
 </style>

@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="container">
-        <div class="row">
+        <div class="row mt-5">
             <h1 class="text-left align-content-end">Battle Rythm</h1>
             <button @click="prev_date" class="btn btn-link"><img class="ml-5" src="@/assets/left_arrow.svg"></button>
             <div class="form-group">
@@ -11,6 +11,8 @@
         </div>
 
         <div class="row">
+            <div class="col-1 border-right">
+            </div>
             <div class="col">
                 <div id="dock-container" class="row mt-5">
                     <div id="dock">
