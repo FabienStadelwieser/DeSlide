@@ -11,6 +11,9 @@ import FinalView from './components/FinalView.vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+import 'jquery/dist/jquery.min'
+import 'bootstrap/dist/js/bootstrap.min'
+
 Vue.use(VueRouter);
 
 Vue.config.productionTip = false;
