@@ -31,15 +31,18 @@ export default {
 
 #grid {
 	display: grid;
-	background-image: url("/editor_background.png");
 	grid-template-columns: 1fr 4fr 1.3fr;
 	grid-template-rows: 4.8em 1fr 7em;
 	grid-template-areas:
 		"selector toolbar chat"
 		"selector preview chat"
 		"selector roadmap chat";
-	height: 100vh;
-	width: 100vw;
+
+	height: 100%;
+	width: 100%;
+
+	background: no-repeat center url("/editor_background.png");
+	background-size: 100% 100%;
 }
 
 #slide-selector {
