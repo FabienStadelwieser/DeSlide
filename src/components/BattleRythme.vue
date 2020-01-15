@@ -1,6 +1,5 @@
 <template lang="html">
     <div class="container">
-        <Toolbar/>
         <div class="row">
             <h1 class="text-left align-content-end">Battle Rythm</h1>
             <button @click="prev_date" class="btn btn-link"><img class="ml-5" src="@/assets/left_arrow.svg"></button>
@@ -78,7 +77,7 @@
                                 </a>
                             </li>
 							<li>
-								<a href="#">
+								<router-link :to="{path: '/edit'}">
 									<img src="@/assets/star.svg"/>
 									<span class="text-dark">
 								<b class="text-danger">1300</b> Decision Brief
@@ -87,7 +86,7 @@
 											class="btn btn-danger ml-2">Closed
 									</button>
 									<button v-else class="btn btn-success ml-2">On Going</button>
-								</a>
+                                </router-link>
 							</li>
                             <li>
                                 <a href="#">
@@ -155,11 +154,8 @@
 
 <script>
 
-    import Toolbar from "./Toolbar.vue";
-
     export default {
         name: 'BattleRythme',
-        components: {Toolbar},
         data: function () {
             return {
                 current_date: getDate()
