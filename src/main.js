@@ -37,47 +37,11 @@ const store = new Vuex.Store({
 	state: {
 		slide: [
 			{ // One slide
-				nbr: 0,
-				elem: [
-					{
-						type: "title",
-						x: 0,
-						y: 0,
-					}
-				],
-			},
-			{ // One slide
 				nbr: 1,
-				elem: [
-					{
-						type: "title",
-						x: 0,
-						y: 0,
-					}
-				],
-			},
-			{ // One slide
-				nbr: 2,
-				elem: [
-					{
-						type: "title",
-						x: 0,
-						y: 0,
-					}
-				],
-			},
-			{ // One slide
-				nbr: 3,
-				elem: [
-					{
-						type: "title",
-						x: 0,
-						y: 0,
-					}
-				],
-			},
+				img: ''
+			}
 		],
-		currentSlide: 0
+		currentSlide: -1
 	},
 	getters: {
 		getSlides(state) {

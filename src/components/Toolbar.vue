@@ -167,6 +167,7 @@
         background-color: #232348;
         padding: 0;
         height: 70px;
+        z-index: 20000;
     }
 
     .toolbar-icon {

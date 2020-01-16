@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="233px" height="140px" viewBox="0 0 233 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Maquette-Briefs-2" transform="translate(-31.000000, -305.000000)">
+            <g id="Group" transform="translate(32.000000, 305.551588)">
+                <polygon id="Fill-205" fill="#FFFFFF" points="0.374 138.599 231.374 138.599 231.374 0.914 0.374 0.914"></polygon>
+                <polygon id="Stroke-206" stroke="#000000" points="0.374 138.599 231.374 138.599 231.374 0.914 0.374 0.914"></polygon>
+                <path d="M23.9984,11.907 L23.9984,25.688" id="Stroke-243" stroke="#000000" stroke-dasharray="2.96,1.96"></path>
+                <path d="M27.4787,28.1479 L210.5117,28.1479" id="Stroke-244" stroke="#000000" stroke-dasharray="2.987,1.987"></path>
+                <path d="M212.9984,24.7078 L212.9984,10.9268" id="Stroke-245" stroke="#000000" stroke-dasharray="2.96,1.96"></path>
+                <path d="M209.5181,8.4668 L26.4851,8.4668" id="Stroke-246" stroke="#000000" stroke-dasharray="2.987,1.987"></path>
+                <path d="M23.9984,26.6677 L23.9984,28.1477 L25.4914,28.1477 M211.5054,28.1477 L212.9984,28.1477 L212.9984,26.6677 M212.9984,9.9467 L212.9984,8.4667 L211.5054,8.4667 M25.4914,8.4667 L23.9984,8.4667 L23.9984,9.9467" id="Stroke-247" stroke="#000000"></path>
+                <text id="T" font-family="Arial-Black, Arial Black" font-size="20.5545" font-weight="700" fill="#000000">
+                    <tspan x="110.4665" y="25.3273434">T</tspan>
+                </text>
+                <path d="M23.9984,35.9719 L23.9984,93.1639" id="Stroke-248" stroke="#000000" stroke-dasharray="2.923,1.923"></path>
+                <path d="M27.4786,95.5874 L210.5116,95.5874" id="Stroke-249" stroke="#000000" stroke-dasharray="2.987,1.987"></path>
+                <path d="M212.9984,92.2026 L212.9984,35.0106" id="Stroke-250" stroke="#000000" stroke-dasharray="2.923,1.923"></path>
+                <path d="M209.5181,32.5874 L26.4851,32.5874" id="Stroke-251" stroke="#000000" stroke-dasharray="2.987,1.987"></path>
+                <path d="M23.9984,94.1257 L23.9984,95.5877 L25.4914,95.5877 M211.5054,95.5877 L212.9984,95.5877 L212.9984,94.1257 M212.9984,34.0487 L212.9984,32.5877 L211.5054,32.5877 M25.4914,32.5877 L23.9984,32.5877 L23.9984,34.0487" id="Stroke-252" stroke="#000000"></path>
+                <polygon id="Stroke-253" stroke="#000000" points="105.976 77.92 126.606 77.92 126.606 52.349 105.976 52.349"></polygon>
+                <g id="Group-260" transform="translate(109.000000, 58.000000)" stroke="#000000" stroke-linecap="round">
+                    <path d="M0.687,3.3389 C0.687,3.3389 2.791,0.8389 4.687,0.8389 C6.583,0.8389 6.687,3.6609 8.687,3.6609 C10.687,3.6609 11.687,0.3389 12.687,2.2499" id="Stroke-254"></path>
+                    <path d="M12.687,6.6296 C12.687,6.6296 10.583,9.1296 8.687,9.1296 C6.791,9.1296 6.687,6.3076 4.687,6.3076 C2.687,6.3076 1.687,9.6296 0.687,7.7186" id="Stroke-256"></path>
+                    <path d="M0.687,13.6431 C0.687,13.6431 2.791,11.1431 4.687,11.1431 C6.583,11.1431 6.687,13.9651 8.687,13.9651 C10.687,13.9651 11.687,10.6431 12.687,12.5541" id="Stroke-258"></path>
+                </g>
+                <path d="M23.9984,103.5132 L23.9984,127.4262" id="Stroke-261" stroke="#000000" stroke-dasharray="2.991,1.991"></path>
+                <path d="M27.4786,129.9172 L210.5116,129.9172" id="Stroke-262" stroke="#000000" stroke-dasharray="2.987,1.987"></path>
+                <path d="M212.9984,126.4309 L212.9984,102.5179" id="Stroke-263" stroke="#000000" stroke-dasharray="2.991,1.991"></path>
+                <path d="M209.5181,100.0269 L26.4851,100.0269" id="Stroke-264" stroke="#000000" stroke-dasharray="2.987,1.987"></path>
+                <path d="M23.9984,128.4219 L23.9984,129.9169 L25.4914,129.9169 M211.5054,129.9169 L212.9984,129.9169 L212.9984,128.4219 M212.9984,101.5219 L212.9984,100.0269 L211.5054,100.0269 M25.4914,100.0269 L23.9984,100.0269 L23.9984,101.5219" id="Stroke-265" stroke="#000000"></path>
+                <polygon id="Stroke-266" stroke="#000000" stroke-linejoin="round" points="104.5823 125.4893 118.1153 104.1143 132.3943 125.1013"></polygon>
+                <text id="!" font-family="LucidaGrande, Lucida Grande" font-size="12" font-weight="normal" fill="#000000">
+                    <tspan x="116.2267" y="118.641787">!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
