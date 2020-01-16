@@ -37,7 +37,7 @@ const store = new Vuex.Store({
 		slide: [
 			{
 				nbr: 1,
-				img: ''
+				img: '/slide1.png'
 			}
 		],
 		currentSlide: 1
