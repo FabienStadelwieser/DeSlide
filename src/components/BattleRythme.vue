@@ -79,7 +79,7 @@
                                 </a>
                             </li>
 							<li>
-								<router-link :to="{path: '/edit'}">
+								<router-link :to="{path: '/edit', params: { is_closed: false }}">
 									<img src="@/assets/star.svg"/>
 									<span class="text-dark">
 								<b class="text-danger">1300</b> Decision Brief

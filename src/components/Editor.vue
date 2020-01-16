@@ -23,6 +23,27 @@ export default {
 		Chat,
 		Toolbar,
 		Roadmap
+	},
+	data() {
+		return {
+			postits: [],
+			images: [{
+				id: 100,
+				src: '/img/carto.svg'
+			}]
+		}
+	},
+	methods: {
+		addPostIt: function () {
+			this.postits.push({
+				id: this.postits.length + 1
+			})
+		},
+		addImage: function () {
+			this.images.push({
+				id: this.images.length * 100 + 1
+			})
+		}
 	}
 }
 </script>
@@ -41,7 +62,7 @@ export default {
 	height: 100%;
 	width: 100%;
 
-	background: no-repeat center url("/editor_background.png");
+	//background: no-repeat center url("/editor_background.png");
 	background-size: 100% 100%;
 }
 
