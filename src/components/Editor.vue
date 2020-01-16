@@ -27,10 +27,7 @@ export default {
 	data() {
 		return {
 			postits: [],
-			images: [{
-				id: 100,
-				src: '/img/carto.svg'
-			}]
+			images: []
 		}
 	},
 	methods: {

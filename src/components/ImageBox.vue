@@ -8,7 +8,7 @@
                 @resize="handleResize"
                 @rotate="handleRotate"
         >
-            <img :src="this.$attrs.src" style="width: 100%; height: 100%"/>
+            <img :src="getImgUrl($attrs.img)" style="width: 100%; height: 100%"/>
         </Moveable>
     </div>
 </template>
@@ -54,6 +54,10 @@
                 dist;
                 target.style.transform = transform;
             },
+            getImgUrl(img) {
+                var images = require.context('../assets/', false, /\.svg$/);
+                return images('./' + img + ".svg")
+            }
         }
     }
 </script>

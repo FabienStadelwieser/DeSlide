@@ -2,7 +2,7 @@
 	<div>
 		<div class="border border-black m-2 h-100 slide-box" ref="slider_box">
 			<Moveable v-for="postit in postits" v-bind:key="postit.id" v-bind:id="postit.id"/>
-			<ImageBox v-for="image in images" v-bind:key="image.id" v-bind:src="image.src"/>
+			<ImageBox v-for="image in images" v-bind:key="image.id" v-bind:img="image.img"/>
 		</div>
 	</div>
 </template>
