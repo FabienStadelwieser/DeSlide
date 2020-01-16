@@ -23,7 +23,6 @@ const router = new VueRouter({
 	routes: [
 		{ path: '/', component: Login },
 		{ path: '/battle_rythme', component: BattleRythme },
-		{ path: '/edit/:slide', component: Editor },
 		{ path: '/edit', component: Editor },
 		{ path: '/view', component: FinalView },
 		{ path: '*', component: Login }
@@ -36,19 +35,19 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
 	state: {
 		slide: [
-			{ // One slide
+			{
 				nbr: 1,
 				img: ''
 			}
 		],
-		currentSlide: -1
+		currentSlide: 1
 	},
 	getters: {
 		getSlides(state) {
 			return state.slide;
 		},
 		getSelectedSlide(state) {
-			return state.slide[state.currentSlide];
+			return state.slide[state.currentSlide - 1];
 		},
 		getSpecificSlide(state, id) {
 			return state.slide[id];
@@ -65,7 +64,7 @@ const store = new Vuex.Store({
 			state.currentSlide = newId
 		},
 		modifCurrentSlide(state, slide) {
-			state.slide[state.currentSlide] = slide;
+			state.slide[state.currentSlide - 1] = slide;
 		},
 	},
 });

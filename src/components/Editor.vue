@@ -1,7 +1,7 @@
 <template lang="html">
 	<div id='grid'>
 		<SlideSelector id='slide-selector'/>
-		<Preview id='preview'/>
+		<Preview id='preview' :nbr="getId" :img="getSelectedSlide.img"/>
 		<Chat id='chat'/>
 		<Toolbar id='toolbar'/>
 		<Roadmap id='roadmap'/>
@@ -14,6 +14,7 @@ import Preview from './Preview.vue'
 import Chat from './Chat.vue'
 import Toolbar from './Toolbar.vue'
 import Roadmap from './Roadmap.vue'
+import {mapGetters} from "vuex";
 
 export default {
 	name: 'Editor',
@@ -27,10 +28,10 @@ export default {
 	data() {
 		return {
 			postits: [],
-			images: [],
-			currentSlide: [],
+			images: []
 		}
 	},
+	computed: mapGetters(['getSelectedSlide', 'getId']),
 	methods: {
 		addPostIt: function () {
 			this.postits.push({
@@ -42,14 +43,6 @@ export default {
 				id: this.images.length * 100 + 1
 			})
 		}
-	},
-	beforeCreate() {
-		this.$store.commit('changeSelected', (
-			this.$route.params.slide === undefined
-				? 0
-				: this.$route.params.slide
-			)
-		)
 	}
 }
 </script>
