@@ -27,7 +27,8 @@ export default {
 	data() {
 		return {
 			postits: [],
-			images: []
+			images: [],
+			currentSlide: [],
 		}
 	},
 	methods: {
@@ -41,6 +42,14 @@ export default {
 				id: this.images.length * 100 + 1
 			})
 		}
+	},
+	beforeCreate() {
+		this.$store.commit('changeSelected', (
+			this.$route.params.slide === undefined
+				? 0
+				: this.$route.params.slide
+			)
+		)
 	}
 }
 </script>
